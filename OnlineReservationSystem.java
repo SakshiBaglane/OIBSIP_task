@@ -8,7 +8,8 @@
 
 import java.util.Scanner;
 
-public class OnlineReservationSystem {
+public class OnlineReservationSystem 
+{
 
     // Initialize variables for user login
     static String username = "Sakshi";
@@ -22,7 +23,8 @@ public class OnlineReservationSystem {
     static String to;
     static String dateOfJourney;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner sc = new Scanner(System.in);
 
         // Login form
@@ -38,12 +40,15 @@ public class OnlineReservationSystem {
         String inputPassword = sc.nextLine();
         System.out.println("");
 
-        if (inputUsername.equals(username) && inputPassword.equals(password)) {
+        if (inputUsername.equals(username) && inputPassword.equals(password)) 
+        {
             System.out.println("-------------------------------------------");
             System.out.println("-------------------------------------------");
 
             System.out.println("          Login successfully...            ");
-        } else {
+        } 
+        else 
+        {
             System.out.println("");
             System.out.println("        Invalid login credentials...        ");
             System.out.println("");
@@ -105,10 +110,13 @@ public class OnlineReservationSystem {
         System.out.println("");
         System.out.println("Do you want to cancel this ticket (OK/Cancel): ");
         String confirmation = sc.next();
-        if (confirmation.equalsIgnoreCase("OK")) {
+        if (confirmation.equalsIgnoreCase("OK")) 
+        {
             System.out.println("");
             System.out.println("Reservation cancelled successfully...");
-        } else {
+        } 
+        else 
+        {
             System.out.println("Reservation not cancelled...");
         }
 
