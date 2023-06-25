@@ -1,1 +1,1 @@
-# OIBSIP_task1 - OnlineReservationSystem
+# OIBSIP_task - OnlineReservationSystem
